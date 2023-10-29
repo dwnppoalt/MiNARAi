@@ -11,4 +11,4 @@ async def on_ready():
     await cogs.setup(client=client)
     print("[STATUS]: Online")
 
-client.run("MTE2ODAyMzA5MTg0NzM2ODcxNA.G81bkh.7_cGly889ymKVjeUF0r7MrSesJ9MhDXTO4ARIM")
+client.run(os.environ["DISCORD_TOKEN"])
