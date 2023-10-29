@@ -1,0 +1,4 @@
+aiohttp==3.8.1
+discord.py
+bs4
+requests
